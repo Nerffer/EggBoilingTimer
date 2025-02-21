@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Timer Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=DynaPuff:wght@400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="menu-container">
+        <h1>🥚 EGG BOILING TIMER ⏳</h1>
+        <div class="image-container">
+            <img src="eggs/eggs.png" alt="Egg" id="menu-egg">
+        </div>
+        <button id="menu-start-button" class="image-button">Start</button>
+    </div>
+
+    <script>
+        document.getElementById('menu-start-button').addEventListener('click', () => {
+            window.location.href = 'menu.html';
+        });
+    </script>
+
+</body>
+</html>

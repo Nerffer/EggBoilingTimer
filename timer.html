@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egg Timer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=DynaPuff:wght@400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="page-title">Boil Your Egg</h1>
+
+        <img id="egg-image" src="" alt="Egg Type" width="150">
+
+        <div id="timer-display">00:00</div>
+        <audio id="tick-sound" src="sound/tick.mp3"></audio>
+        <audio id="ding-sound" src="sound/ding.mp3"></audio>
+
+        <div class="control-buttons">
+            <button id="start-button">Start</button>
+            <button id="pause-button" class="hidden">Pause</button>
+            <button id="reset-button" class="hidden">Reset</button>
+        </div>
+
+        <button id="back-button">⬅ Back</button>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

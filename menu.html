@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Egg</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=DynaPuff:wght@400..700&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>🥚 Choose Your Egg Type 🥚</h1>
+
+    
+        <div class="egg-options">
+            <div class="egg-item">
+                <img src="eggs/soft-boiled.png" alt="Soft Boiled">
+                <button class="egg-button" data-time="360" data-image="soft-boiled.png">Soft Boiled</button>
+            </div>
+        
+            <div class="egg-item">
+                <img src="eggs/medium-boiled.png" alt="Medium Boiled">
+                <button class="egg-button" data-time="480" data-image="medium-boiled.png">Medium Boiled</button>
+            </div>
+        
+            <div class="egg-item center-egg">
+                <img src="eggs/hard-boiled.png" alt="Hard Boiled">
+                <button class="egg-button" data-time="720" data-image="hard-boiled.png">Hard Boiled</button>
+            </div>
+        </div>
+        <button id="back-button">⬅ Back</button>
+    </div>
+    
+    <script>
+        document.getElementById("back-button").addEventListener("click", function (){
+            window.location.href = "startpage.html";
+        });
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>

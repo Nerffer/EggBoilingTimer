@@ -1,7 +1,7 @@
 <img width="801" alt="screenshot_3" src="https://github.com/user-attachments/assets/b7a61d68-5b29-471e-8d47-a12b2d511ea5" /># 🥚 Egg Boiling Timer ⏳  
 
 An interactive **egg boiling timer** built with **Electron.js, HTML, CSS, and JavaScript**.  
-Choose your egg type and watch it cook with **animations and sound effects**!  
+Choose your egg type and watch it cook with **animations and sound effects**! All of the eggs were drawn by hand by **@Goyaqua**.
 
 ---
 

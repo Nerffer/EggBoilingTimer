@@ -170,23 +170,6 @@ button{
     box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
 }
 
-#close-btn {
-    width: 12px;
-    height: 12px;
-    background: red;
-    border: none;
-    position: absolute;
-    top: 6px;
-    right: 6px;
-    cursor: pointer;
-    border-radius: 2px;
-}
-
-#close-btn:hover {
-    background: darkred;
-}
-
-
 @keyframes egg-shake{
     0% { transform: rotate(0deg); }
     25% { transform: rotate(5deg); }
@@ -199,38 +182,38 @@ button{
     animation: egg-shake 0.89s infinite ease-in-out;
 }
 
-@keyframes float-soft {
+@keyframes float-soft{
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
 
-@keyframes float-medium {
+@keyframes float-medium{
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-25px); }
 }
 
-@keyframes float-hard {
+@keyframes float-hard{
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-30px); }
 }
 
-.egg-item:hover img {
+.egg-item:hover img{
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
 
-.egg-item:nth-child(1):hover img {
+.egg-item:nth-child(1):hover img{
     animation-name: float-soft;
     animation-duration: 1.5s;
 }
 
-.egg-item:nth-child(2):hover img {
+.egg-item:nth-child(2):hover img{
     animation-name: float-medium;
     animation-duration: 1s;
 }
 
-.egg-item:nth-child(3):hover img {
+.egg-item:nth-child(3):hover img{
     animation-name: float-hard;
     animation-duration: 0.7s;
 }

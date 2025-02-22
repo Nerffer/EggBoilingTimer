@@ -63,7 +63,6 @@ document.addEventListener("DOMContentLoaded", function () {
         startButton.classList.add("hidden");
         pauseButton.classList.remove("hidden");
         resetButton.classList.remove("hidden");
-        pauseButton.textContent = "Pause"
     }
 
     startButton.addEventListener("click", startTimer);
@@ -79,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         else{
             startTimer();
-            pauseButton.textContent = "Pause"
+            pauseButton.textContent = "Pause";
         }
     });
 
